@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --cor-hf: black;
+    --fonte1: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: lightgrey;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: var(--cor-hf);
+    padding: 40px;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+header p {
+    color: white;
+}
+
+header a, footer a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.editado {
+    background-color: #36363686;
+}
+
+
+footer {
+    background-color: var(--cor-hf);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
